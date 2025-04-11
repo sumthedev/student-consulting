@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 export default function FAQAccordion() {
-  const [openItem, setOpenItem] = useState<string | null>("item-0")
+  const [openItem, setOpenItem] = useState<string>("item-0")
 
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-white">

@@ -114,7 +114,7 @@ export default function ConsultationForm() {
                   </div>
                   <h3 className="text-2xl font-bold">Thank You!</h3>
                   <p className="text-gray-500">
-                    Your consultation request has been submitted. We'll contact you within 24 hours to schedule your
+                    Your consultation request has been submitted. We will contact you within 24 hours to schedule your
                     session.
                   </p>
                 </div>
@@ -203,8 +203,8 @@ export default function ConsultationForm() {
                           <SelectValue placeholder="Select level" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="bachelors">Bachelor's Degree</SelectItem>
-                          <SelectItem value="masters">Master's Degree</SelectItem>
+                          <SelectItem value="bachelors">Bachelors Degree</SelectItem>
+                          <SelectItem value="masters">Masters Degree</SelectItem>
                           <SelectItem value="phd">PhD / Doctoral</SelectItem>
                           <SelectItem value="diploma">Diploma / Certificate</SelectItem>
                         </SelectContent>
